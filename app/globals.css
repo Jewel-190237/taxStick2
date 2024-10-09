@@ -2,26 +2,211 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.header {
+  @apply text-white text-xl md:text-4xl lg:text-5xl font-semibold mx-auto capitalize mt-10 md:mt-16 lg:mt-[120px]
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.description {
+  @apply text-white text-xs md:text-[14px] lg:text-[18px] font-semibold leading-[166.667%] mt-[29px] mx-auto text-center
+}
+
+.button {
+  @apply text-white bg-[#10B981] rounded-lg text-xs md:text-[16px] px-1 md:px-2 lg:px-[11px] py-2 md:py-3 lg:py-5
+}
+
+.section-heading2 {
+  @apply text-[#090909] text-xs md:text-sm lg:text-[18px] font-medium border border-[#10B981] rounded-3xl p-3 lg:p-4
+}
+
+.testimonials-person {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.section-bg {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%);
+  ;
+}
+
+.section-heading {
+  @apply mx-auto section-bg text-[#090909] w-32 md:w-44 lg:w-52 py-2 md:py-3 rounded pl-6 md:pl-8 lg:pl-14 uppercase font-medium text-[14px] md:text-[16px] lg:text-[18px]
+}
+
+.service {
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+
+    @media (max-width: 640px) {
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    color: #10B981;
+    height: 15px;
+    background: #10B981;
+    border-radius: 30%
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 40px !important;
+    height: 15px !important;
+    border-radius: 30% !important;
+  }
+
+  .swipper-button {
+    @apply w-12 h-12 rounded-full shadow flex items-center border justify-center hover:bg-[#10B981] hover:text-white duration-500
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.number {
+  @apply text-xl md:text-2xl lg:text-[30px] font-semibold;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: white !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.read {
+  @apply text-[#1C2539] text-[16px] md:text-xl font-semibold
+}
+
+.team-shape {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+}
+
+.team2 {
+  .swiper-pagination-bullet {
+    width: 15px;
+    color: #10B981;
+    height: 15px;
+    background: #10B981;
+    border-radius: 100%
   }
+
+  .swiper-pagination-bullet-active {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100% !important;
+  }
+}
+
+.swipper-button {
+  @apply w-12 h-12 rounded-full shadow flex items-center border justify-center hover:bg-[#10B981] hover:text-white duration-500
+}
+
+.form-styles {
+  @apply w-full my-10 md:my-16 lg:my-28 rounded-xl py-10 md:py-12 lg:py-14 px-7 md:px-8 lg:px-10 space-y-4 md:space-y-8 lg:space-y-10
+}
+
+.submit-button {
+  @apply button flex items-center justify-center gap-3 w-full md:w-1/2 mt-10 md:mt-20 lg:mt-28 !text-[18px]
+}
+
+/* Office related styles */
+.office-description {
+  @apply text-[16px] font-normal mt-12 text-[#5D666F] text-justify px-7
+}
+
+.office {
+  .swiper-pagination {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+
+    @media (max-width: 640px) {
+      display: flex !important;
+      margin-left: 0px;
+      justify-content: center !important;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    color: #10B981;
+    height: 15px;
+    background: #10B981;
+    border-radius: 30%
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 40px !important;
+    height: 15px !important;
+    border-radius: 30% !important;
+  }
+
+  .swipper-button {
+    @apply w-12 h-12 rounded-full shadow flex items-center border justify-center hover:bg-[#10B981] hover:text-white duration-500
+  }
+}
+
+.office-heading {
+  @apply relative transition duration-300 shadow-lg rounded-[50px] bg-white flex items-center gap-6 px-7 py-2 group-hover:bg-[#10B981]
+}
+
+/* contact related styles */
+.contact-card {
+  @apply p-4 md:p-5 lg:p-6 rounded-xl flex gap-3 lg:gap-4 border-[3px] border-[#101928] hover:border-[#10B981] hover:bg-[#10B98180]
+}
+
+.contact-text {
+  @apply text-white text-[16px] md:text-[18px] lg:text-xl
+}
+
+.contact-icon {
+  @apply hover:bg-[#10B981] rounded-full w-20 h-20
+}
+
+/* About related styles */
+.feature-text {
+  @apply text-[#1C2539] leading-none text-[12px] md:text-[16px] lg:text-[18px] font-semibold
+}
+
+.about-button {
+  @apply bg-[#10B981] mt-8 md:mt-10 lg:mt-12 rounded-[100px] text-white font-bold px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 text-xs md:text-sm lg:text-[16px]
+}
+
+/* support related styles */
+.support-text {
+  @apply text-[#1C2539] text-[16px] lg:text-[18px] font-bold capitalize
+}
+
+/* Team3 related styles */
+.team-name {
+  @apply pt-7 md:pt-8 lg:pt-10 text-center text-[#FFF] text-[16px] md:text-[18px] lg:text-[20px] font-bold
+}
+
+.team-title {
+  @apply text-center mt-4 text-[#FFF] text-[16px] font-light
+}
+
+.team3 {
+  .swiper-pagination {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    color: #10B981;
+    height: 15px;
+    background: #10B981;
+    border-radius: 100%
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100% !important;
+  }
+}
+
+/* Testimonials related styles */
+.testimonials-text {
+  @apply text-justify px-6 md:px-7 lg:px-8 mt-14 md:mt-16 lg:mt-20 text-white  font-medium leading-[30px] text-sm lg:text-[16px]
 }
