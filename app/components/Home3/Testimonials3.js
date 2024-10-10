@@ -57,7 +57,7 @@ const Testimonials3 = () => {
                         }}
                         modules={[Keyboard, Pagination]}
                         ref={swipperRef}
-                        className="mt-12"
+                        className="mt-6"
                     >
                         {testimonialsData.map((data) => (
                             <SwiperSlide >

@@ -9,6 +9,7 @@ import Support from "./components/Home2/Support";
 import Team from "./components/Home2/Team";
 import Testimonials2 from "./components/Home2/Testimonials2";
 import Contact3 from "./components/Home3/Contact3";
+import Expert3 from "./components/Home3/Expert3";
 import Team3 from "./components/Home3/Team3";
 import Testimonials3 from "./components/Home3/Testimonials3";
 import "./globals.css";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
+        <Expert3 />
         <Testimonials3 />
         <Contact3 />
         <Team3 />
