@@ -213,3 +213,11 @@
 .divider{
   background: linear-gradient(90deg, rgba(16, 185, 129, 0.00) 0%, #10B981 50.61%, rgba(16, 185, 129, 0.00) 100%);
 }
+
+/* tax file related styles */
+.tax-header{
+    @apply text-white text-xl md:text-4xl lg:text-5xl font-semibold capitalize mt-6 md:mt-8 lg:mt-10 
+}
+.tax-description{
+  @apply text-white text-xs md:text-sm lg:text-[16px] !leading-[187.5%] font-normal
+}
