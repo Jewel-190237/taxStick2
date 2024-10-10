@@ -178,11 +178,11 @@
 
 /* Team3 related styles */
 .team-name {
-  @apply pt-7 md:pt-8 lg:pt-10 text-center text-[#FFF] text-[16px] md:text-[18px] lg:text-[20px] font-bold
+  @apply pt-7 md:pt-8 lg:pt-10 text-center capitalize text-[#FFF] text-[16px] md:text-[18px] lg:text-[20px] font-bold
 }
 
 .team-title {
-  @apply text-center mt-4 text-[#FFF] text-[16px] font-light
+  @apply text-center mt-4 text-[#FFF] text-[16px] capitalize font-light
 }
 
 .team3 {
@@ -208,5 +208,8 @@
 
 /* Testimonials related styles */
 .testimonials-text {
-  @apply text-justify px-6 md:px-7 lg:px-8 mt-14 md:mt-16 lg:mt-20 text-white  font-medium leading-[30px] text-sm lg:text-[16px]
+  @apply text-justify px-6 md:px-7 lg:px-8 pt-14 md:pt-16 lg:pt-20 text-white  font-medium leading-[30px] text-sm lg:text-[16px]
+}
+.divider{
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.00) 0%, #10B981 50.61%, rgba(16, 185, 129, 0.00) 100%);
 }

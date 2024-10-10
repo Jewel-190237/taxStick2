@@ -6,7 +6,7 @@ const inputBg = 'bg-[#012A2B]'
 const Contact3 = () => {
     
     return (
-        <div className='mt-10'>
+        <div className=''>
             <ContactCard2 bgColor={bgColor} inputBg={inputBg} textColor={textColor} />
         </div>
     );
