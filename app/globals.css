@@ -208,16 +208,31 @@
 
 /* Testimonials related styles */
 .testimonials-text {
-  @apply text-justify px-6 md:px-7 lg:px-8 pt-14 md:pt-16 lg:pt-20 text-white  font-medium leading-[30px] text-sm lg:text-[16px]
+  @apply text-justify px-6 md:px-7 lg:px-8 pt-14 md:pt-16 lg:pt-20 text-white font-medium leading-[30px] text-sm lg:text-[16px]
 }
-.divider{
+
+.divider {
   background: linear-gradient(90deg, rgba(16, 185, 129, 0.00) 0%, #10B981 50.61%, rgba(16, 185, 129, 0.00) 100%);
 }
 
 /* tax file related styles */
-.tax-header{
-    @apply text-white text-xl md:text-4xl lg:text-5xl font-semibold capitalize mt-6 md:mt-8 lg:mt-10 
+.tax-header {
+  @apply text-white text-xl md:text-4xl lg:text-5xl font-semibold capitalize mt-6 md:mt-8 lg:mt-10
 }
-.tax-description{
+
+.tax-description {
   @apply text-white text-xs md:text-sm lg:text-[16px] !leading-[187.5%] font-normal
+}
+
+/* Plan related styles */
+.plan-heading {
+  @apply text-white text-[16px] md:text-xl lg:text-2xl font-semibold capitalize
+}
+
+.tax-plan {
+  @apply bg-[#012A2B] rounded-xl border border-[#012A2B] hover:border-[#10B981] py-8 md:py-9 lg:py-10 px-7 md:px-6 lg:px-[30px] transition duration-300 ease-in-out
+}
+
+.div-bg {
+  background: linear-gradient(180deg, #000 0%, rgba(7, 83, 58, 0.00) 100%);
 }
