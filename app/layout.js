@@ -27,16 +27,16 @@ export default function RootLayout({ children }) {
         <TaxPlan />
         <TaxFile />
         <Expert3 />
-        {/* <Testimonials3 /> */}
-        {/* <Contact3 /> */}
-        {/* <Team3 /> */}
-        {/* <Support /> */}
+        <Testimonials3 />
+        <Contact3 />
+        <Team3 />
+        <Support />
         {/* <About /> */}
         {/* <Contact /> */}
         {/* <Office/> */}
         {/* <Service2/> */}
         {/* <Testimonials/> */}
-        <Team/>
+        {/* <Team/> */}
         {/* <Service/> */}
         {/* <Testimonials2/> */}
       </body>
