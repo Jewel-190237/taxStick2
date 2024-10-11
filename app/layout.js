@@ -8,6 +8,7 @@ import Service2 from "./components/Home2/Service2";
 import Support from "./components/Home2/Support";
 import Team from "./components/Home2/Team";
 import Testimonials2 from "./components/Home2/Testimonials2";
+import About3 from "./components/Home3/About3";
 import Contact3 from "./components/Home3/Contact3";
 import Expert3 from "./components/Home3/Expert3";
 import TaxFile from "./components/Home3/TaxFile";
@@ -23,7 +24,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <Trusted/>
+        <About3 />
+        <Trusted />
         <TaxPlan />
         <TaxFile />
         <Expert3 />

@@ -240,3 +240,29 @@
 .trusted-heading{
   @apply text-white text-[16px] md:text-xl lg:text-2xl font-semibold border-b-2 border-[#10B981] pb-2 inline-block
 }
+
+/* About3 related styles */
+.about1{
+  border-radius: 16px 16px 80px 16px;
+  z-index: 50;
+}
+.about2{
+  border-radius: 80px 16px 16px 16px;
+  z-index: 50;
+  margin-top: 90px;
+}
+.div1{
+  border-radius: 16px 16px 16px 50px;
+  background-color: #10B981;
+  width: 290px;
+  height: 325px;
+  z-index: 10;
+}
+.div2{
+  border-radius: 80px 16px 16px 16px;
+  background-color: #012A2B;
+  width: 290px;
+  height: 411px;
+  z-index: 10;
+  
+}

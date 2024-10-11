@@ -1,7 +1,5 @@
 import ContactCard2 from "@/app/card/Home2/ContactCard2";
-// const bgColor = 'bg-[#012A2B]'
-// const textColor = 'text-white'
-// const inputBg = 'bg-[#012A2B]'
+
 const bgColor = 'bg-white'
 const textColor = 'text-[#5D666F]'
 const inputBg = 'bg-white'

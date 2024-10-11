@@ -2,10 +2,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-// const bgColor = 'bg-[#012A2B]'
-// const textColor = 'text-white'
-// const inputBg = 'bg-[#012A2B]'
-
 const ContactCard2 = ({bgColor, textColor, inputBg}) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
