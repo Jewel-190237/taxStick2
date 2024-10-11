@@ -11,6 +11,7 @@ import Testimonials2 from "./components/Home2/Testimonials2";
 import Contact3 from "./components/Home3/Contact3";
 import Expert3 from "./components/Home3/Expert3";
 import TaxFile from "./components/Home3/TaxFile";
+import TaxPlan from "./components/Home3/TaxPlan";
 import Team3 from "./components/Home3/Team3";
 import Testimonials3 from "./components/Home3/Testimonials3";
 import "./globals.css";
@@ -21,16 +22,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
+        <TaxPlan />
         <TaxFile />
         <Expert3 />
-        <Testimonials3 />
-        <Contact3 />
-        <Team3 />
-        <Support />
-        <About />
-        <Contact />
+        {/* <Testimonials3 /> */}
+        {/* <Contact3 /> */}
+        {/* <Team3 /> */}
+        {/* <Support /> */}
+        {/* <About /> */}
+        {/* <Contact /> */}
         {/* <Office/> */}
-        {/* <Service2/> */}
+        <Service2/>
         {/* <Testimonials/> */}
         {/* <Team/> */}
         {/* <Service/> */}
