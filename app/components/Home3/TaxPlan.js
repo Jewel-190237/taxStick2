@@ -15,8 +15,8 @@ const TaxPlan = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 md:mt-10 lg:mt-12'>
                     {taxPlanData.map((data, index) => (
                         <div key={index} className=''>
-                            <div className='relative hidden xl:flex left-1 z-50 div-bg h-full w-[55px] rounded-l-xl'> </div>
-                            <div className="z-10 tax-plan xl:relative bottom-56">
+                            <div className='relative hidden xl:flex left-0 z-50 div-bg h-full w-[55px] rounded-l-xl'> </div>
+                            <div className="z-10 tax-plan xl:relative bottom-[215px]">
                                 <div className="flex items-center gap-7">
                                     <Image src={data.image} width={48} height={48} alt="Planning Icon" />
                                     <h4 className="text-white plan-heading">{data.heading}</h4>

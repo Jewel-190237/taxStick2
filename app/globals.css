@@ -236,3 +236,7 @@
 .div-bg {
   background: linear-gradient(180deg, #000 0%, rgba(7, 83, 58, 0.00) 100%);
 }
+/* trust related styles */
+.trusted-heading{
+  @apply text-white text-[16px] md:text-xl lg:text-2xl font-semibold border-b-2 border-[#10B981] pb-2 inline-block
+}

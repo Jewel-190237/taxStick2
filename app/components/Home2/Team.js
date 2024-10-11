@@ -15,15 +15,15 @@ const Team = () => {
     }, []);
 
     const teamData = [
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
-        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/2889.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
+        {name: 'Mr. Dorothy', title: 'Chief Executive', image: '/team/team1.jpg'},
     ]
 
     return (
