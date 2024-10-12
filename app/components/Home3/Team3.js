@@ -13,6 +13,7 @@ const Team3 = () => {
             swipperRef.current.swiper.update();
         }
     }, []);
+    
     const teamData = [
         { image: '/team3/team1.svg', name: 'Mr. Dorothy', title: 'Chief Executive' },
         { image: '/team3/team2.svg', name: 'Mr. Dorothy', title: 'Chief Executive' },

@@ -18,7 +18,7 @@ const Trusted = () => {
                 <div className="flex justify-center">
                     <h4 className="trusted-heading">Trusted by 100k+ Investors Company </h4>
                 </div>
-                <div className='flex overflow-x-auto justify-between mt-8 md:mt-10 lg:mt-12'>
+                <div className='trusted-brand'>
                     {TrustedData.map((data, index) => (
                         <Link key={index} href=''> <Image src={data.image} width={135} height={48} alt='Brand Image' /></Link>
                     ))}
