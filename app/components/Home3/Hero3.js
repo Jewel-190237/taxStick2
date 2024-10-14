@@ -34,7 +34,6 @@ const Hero3 = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     );
 };
