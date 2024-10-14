@@ -12,6 +12,7 @@ import About3 from "./components/Home3/About3";
 import Contact3 from "./components/Home3/Contact3";
 import Expert3 from "./components/Home3/Expert3";
 import Hero3 from "./components/Home3/Hero3";
+import Navbar from "./components/Home3/Navbar";
 import TaxFile from "./components/Home3/TaxFile";
 import TaxPlan from "./components/Home3/TaxPlan";
 import Team3 from "./components/Home3/Team3";
@@ -25,7 +26,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <Hero3/>
+        <Navbar />
+        <Hero3 />
         <Trusted />
         <About3 />
         <TaxPlan />
