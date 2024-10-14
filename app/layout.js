@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Hero3/>
-        <About3 />
         <Trusted />
+        <About3 />
         <TaxPlan />
         <TaxFile />
         <Expert3 />

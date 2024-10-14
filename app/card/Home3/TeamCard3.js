@@ -6,7 +6,7 @@ const TeamCard3 = ({image, name, title}) => {
     return (
         <div className='group'>
             <div className='bg-black rounded-t-xl px-4 pt-4'>
-                <div className='rounded-t-xl border-t border group-hover:border-[#10B981] border-b-0  border-black'>
+                <div className='rounded-t-xl border group-hover:border-[#10B981] border-b-0  border-black'>
                     <Image className='w-[185px] h-[255px] mx-auto pt-4' src={image} width={185} height={255} alt='Team Image ' />
                 </div>
             </div>
