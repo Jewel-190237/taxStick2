@@ -128,7 +128,7 @@ const Navbar = () => {
         ));
 
     return (
-        <nav className="w-full bg-[#101928] h-fit relative z-10 mt-16 lg:mt-0">
+        <nav className="w-full bg-[#101928] p-7 h-fit relative z-10 mt-16 lg:mt-0">
             <div className="max-w-[1320px] px-2 md:px-0 mx-auto flex items-center justify-between">
                 <Link href="/">
                     <div className='md:w-[160px] md:h-[35px] w-[100px] h-[28px]'>

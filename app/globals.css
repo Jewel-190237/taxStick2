@@ -282,7 +282,3 @@
 .hero3-heading {
   @apply text-white font-bold text-[18px] sm:text-[20px] md:text-[30px] lg:text-[60px] xl:text-[80px] leading-[117.5%]
 }
-
-.div-gradient {
-  background: linear-gradient(270deg, rgba(16, 185, 129, 0.50) 9.7%, rgba(7, 83, 58, 0.00) 77.87%);
-}

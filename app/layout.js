@@ -29,14 +29,14 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Hero3 />
         <Trusted />
-        <About3 />
-        <TaxPlan />
-        <TaxFile />
-        <Expert3 />
-        <Testimonials3 />
-        <Contact3 />
-        <Team3 />
-        <Support />
+        {/* <About3 /> */}
+        {/* <TaxPlan /> */}
+        {/* <TaxFile /> */}
+        {/* <Expert3 /> */}
+        {/* <Testimonials3 /> */}
+        {/* <Contact3 /> */}
+        {/* <Team3 /> */}
+        {/* <Support /> */}
         {/* <About /> */}
         {/* <Contact /> */}
         {/* <Office/> */}
